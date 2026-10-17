@@ -5,11 +5,11 @@ import pandas as pd
 import pydeck as pdk
 import streamlit as st
 
-from core.data import generate, DAYS
-from core.ml import run_models
-from core.rules import build_alerts, enrich, quality_ok
-from core.i18n import LANGS, tr
-from core.imis import push
+from Core.data import generate, DAYS
+from Core.ml import run_models
+from Core.rules import build_alerts, enrich, quality_ok
+from Core.i18n import LANGS, tr
+from Core.imis import push
 
 st.set_page_config(page_title="Jal Mitra – FHTC Monitor", page_icon="💧", layout="wide")
 
